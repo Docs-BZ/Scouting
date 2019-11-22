@@ -1,0 +1,91 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Team 100 Scouting"
+theme = "dot-hugo-documentation-theme"
+
+
+############################# Default Parameters ##########################
+[params]
+# logo is for all page
+logo = ""
+# logo white is for homepage logo, you can use colorful logo too...
+logoWhite = ""
+# when logo is empty, it will shown your site title
+
+# customize color
+
+#primaryColor = "#02007e"
+#secondaryColor = "#f9f9f9"
+#textColor = "#636363"
+#textColorDark = "#242738"
+
+primaryColor = "#F25C05"
+#secondaryColor = "#f9f9f9"
+textColor = "#636363"
+textColorDark = "#242738"
+
+whiteColor = "#ffffff"
+
+############################## social links ##############################
+[[params.social]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+  
+[[params.social]]
+icon = "ti-vimeo-alt" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+  
+
+
+################################# language ################################
+[Languages]
+
+  ################################ English Language ######################
+  [Languages.en]
+  languageName = "En"
+  languageCode = "en-us"
+  weight = 1
+  home = "Home"
+  copyright = "Team 100 Wildhats (c) 2019"
+
+    # navigation
+    [Languages.en.menu]
+    
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Team Website"
+        url = "https://team100.org"
+        
+      
+      
+    # banner
+    [Languages.en.params.banner]
+      title = "Scouting Support Center"
+      description = "Get Help With All Aspects of Scouting"
+      image = "images/banner.jpg"
+      placeholder = "Search"
+
+    # Topics
+    [Languages.en.params.topics]
+      title = "Find your answer by subject"
+    
+    # call to action
+    [Languages.en.params.cta]
+      enable = true
+      title = "Didn't find an answer to your question?"
+      description = "Please ask on #scouting or if, at a competition, talk to a mentor or scouting developer"
+      btnText = "Open Slack"
+      btnURL = "https://team100robotics.slack.com/archives/C4AEPBZMY"
+
+    # contact
+    [Languages.en.params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
+
+
+
+
