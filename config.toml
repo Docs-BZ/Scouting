@@ -1,4 +1,4 @@
-baseURL = "https://scouting.docs.bz"
+baseURL = "https://scouting.docs.bz/"
 languageCode = "en-us"
 title = "Team 100 Scouting"
 theme = "dot-master"
